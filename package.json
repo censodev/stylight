@@ -1,0 +1,19 @@
+{
+  "name": "stylight",
+  "version": "1.0.0",
+  "description": "A mini utility scss library based on bootstrap from @censodev with love",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/censodev/stylight.git"
+  },
+  "author": "censodev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/censodev/stylight/issues"
+  },
+  "homepage": "https://github.com/censodev/stylight#readme"
+}
