@@ -1,0 +1,35 @@
+$zindex-dropdown:                   1000 !default;
+$zindex-sticky:                     1020 !default;
+$zindex-fixed:                      1030 !default;
+$zindex-modal-backdrop:             1040 !default;
+$zindex-modal:                      1050 !default;
+$zindex-popover:                    1060 !default;
+$zindex-tooltip:                    1070 !default;
+
+$positions: static, relative, absolute, fixed, sticky;
+
+@each $position in $positions {
+  .position-#{$position} { position: $position !important; }
+}
+
+// Shorthand
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: $zindex-fixed;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  z-index: $zindex-fixed;
+}
+
+.sticky-top {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+    z-index: $zindex-sticky;
+  }
+}
