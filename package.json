@@ -4,7 +4,9 @@
   "description": "A mini utility scss library based on bootstrap from @censodev with love",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm-run-all --parallel css-compile* css-clean*",
+    "css-compile": "node-sass stylight.scss stylight.css",
+    "css-clean": "cleancss -o stylight.min.css stylight.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/censodev/stylight/issues"
   },
-  "homepage": "https://github.com/censodev/stylight#readme"
+  "homepage": "https://github.com/censodev/stylight#readme",
+  "dependencies": {
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
 }
