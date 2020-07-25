@@ -4,7 +4,7 @@ A mini utility scss library based on bootstrap from [@censodev](https://github.c
 
 ## Theme 
 > Base theme color
-> Can be customized in _theme.scss
+>> Can be customized in _theme.scss
 ```scss
 "white":        #ffffff,
 "black":        #000000,
@@ -74,7 +74,7 @@ top, bottom, left, right
 .d-table  		{  display:  table  !important;  }
 .d-table-row		{  display:  table-row  !important;  }
 .d-table-cell		{  display:  table-cell  !important;  }
-.d-flex  			{  display:  flex  !important;  }
+.d-flex  		{  display:  flex  !important;  }
 .d-inline-flex		{  display:  inline-flex  !important;  }
 ```
 
