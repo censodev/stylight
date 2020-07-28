@@ -1,5 +1,5 @@
 {
-  "name": "stylight",
+  "name": "stylight-css",
   "version": "1.0.0",
   "description": "A mini utility scss library based on bootstrap from @censodev with love",
   "main": "index.js",
