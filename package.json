@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/censodev/stylight.git"
   },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "author": "censodev",
   "license": "ISC",
   "bugs": {
